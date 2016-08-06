@@ -1,0 +1,22 @@
+{
+  "name": "theremin",
+  "version": "0.0.1",
+  "description": "Arduino/WEB Theremin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "theremin",
+    "arduino"
+  ],
+  "author": "Délio Amaral",
+  "email": "delio@cloudoki.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "johnny-five": "^0.9.60",
+    "socket.io": "^1.4.8"
+  }
+}
